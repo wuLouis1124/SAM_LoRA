@@ -1,4 +1,4 @@
-# 🎈 Blank app template
+# 🎈 SAM+LoRA
 
 A simple Streamlit app template for you to modify!
 
