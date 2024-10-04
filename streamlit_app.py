@@ -31,7 +31,7 @@ def resize_image_to_target(image, target_width, target_height):
 @st.cache_resource
 def load_sam_model():
     model_type = "vit_h"
-    sam_checkpoint = "/root/autodl-tmp/sam_vit_h_4b8939.pth"
+    sam_checkpoint = "sam_vit_h_4b8939.pth"
     device = "cuda" if torch.cuda.is_available() else "cpu"
     sam = sam_model_registry[model_type](checkpoint=sam_checkpoint)
     sam.to(device=device)
