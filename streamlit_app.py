@@ -9,7 +9,7 @@ from scipy.ndimage import binary_erosion, binary_dilation
 import time  # 新增导入time库
 
 # 加载目标图片，并获取其尺寸
-target_image_path = "/root/autodl-tmp/finetune_segment_anything_tutorial/data_example/VOCdevkit/VOC2007/JPEGImages/000068.jpg"  # 目标图片的路径
+target_image_path = "000068.jpg"  # 目标图片的路径
 target_image = Image.open(target_image_path)
 target_width, target_height = target_image.size  # 获取目标图片的宽度和高度
 
