@@ -1,1 +1,7 @@
 streamlit
+torch
+matplotlib
+streamlit_drawable_canvas
+segment_anything
+scipy
+torchvision
